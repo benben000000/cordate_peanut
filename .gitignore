@@ -1,0 +1,42 @@
+# dependencies
+node_modules/
+.pnpm-store/
+
+# next.js
+.next/
+out/
+.swc/
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+ruff_cache/
+
+# env & secrets (never commit)
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+firebase-admin*.json
+service-account*.json
+
+# telemetry spool & exports (user data)
+spool/
+exports/
+*.ndjson
+
+# logs
+*.log
+npm-debug.log*
+
+# editors / OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
