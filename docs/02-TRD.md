@@ -38,7 +38,7 @@ Verification log for external facts in this document: see `docs/07-FREE-TIER-LED
 | Multimodal classification | Gemini API (`gemini-3.8-flash`) | Free tier via AI Studio key (no billing account) | `gemini-2.0-flash` shut down 2026-06-01; alias registry §2.2.5 |
 | Judge-mode streaming | Gemini Live API (`gemini-3.8-live`) | Free tier | 10-min rolling sessions |
 | Fast state bus | Firebase Realtime Database | Spark | 10 Hz writes; metered by storage/download, not op count |
-| Durable signals + session metadata | Cloud Firestore | Spark | 20,000 writes/day budget → ≤ 744 writes/h design |
+| Durable signals + session metadata | Cloud Firestore | Spark | 20,000 writes/day budget → ≤ 742 writes/h design |
 | Auth | Firebase Auth (Google + Email link) | Spark (50k MAU) | ID token, 1 h expiry |
 | Analytics warehouse | BigQuery sandbox dataset `pedagogy` | No-card sandbox: 1 TiB queries/mo, no streaming inserts, 60-day table expiry | Batch `bq load` only |
 | Hosting | Firebase Hosting (static Next export) | Spark (10 GB storage, 360 MB/day transfer) | Demo bundle ≤ 2.5 MB gzip |

@@ -22,7 +22,7 @@ weight adapter, and the Synaptic Tagging & Capture consolidation layer to the sp
 | Measured intervention path | Local rule engine + linear classifier, p99 ≤ 120 ms decision-to-pixel |
 | Semantic recalibration path | Gemini call every 2–10 s, p95 ≤ 2.5 s; suppressed if stale > 250 ms at render |
 | Client telemetry volume | 10 Hz windows, 16-dim feature vector, ≤ 1.2 KB/frame uplink |
-| Firestore write budget | ≤ 744 writes/hour (Spark plan limit: 20,000 writes/day) |
+| Firestore write budget | ≤ 742 writes/hour (Spark plan limit: 20,000 writes/day) |
 
 ## Repository map
 
